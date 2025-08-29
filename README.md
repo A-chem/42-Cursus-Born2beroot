@@ -1,4 +1,5 @@
 # 🔒 Born2beroot (42 Project)
+<img width="512" height="512" alt="unnamed" src="https://github.com/user-attachments/assets/03a21632-41ec-460d-a680-fac252409b3b" />
 
 **Born2beroot** is a project from the [42](https://42.fr) curriculum focused on **Linux system administration and security**.  
 Its main goal is to practice creating a **secure virtual machine** and managing users, services, and permissions from scratch.  
