@@ -1,28 +1,28 @@
-# 🔒 Born2beroot
+# Born2beroot
 
 > **A 42 School system-administration project focused on virtualization, Linux security, and server hardening.**
 
-## 📌 Project Overview
+## Project Overview
 
-**Born2beroot** is a practical infrastructure project from the [42 School](https://42.fr) curriculum. Its objective is to design, install, configure, and secure a Linux virtual machine while applying fundamental system-administration and cybersecurity principles.
+**Born2beroot** is a practical infrastructure project from the [42 School](https://42.fr) curriculum. Its objective is to design, install, configure, and secure a Linux virtual machine while applying strict security and administration practices.
 
-The project provides hands-on experience with the day-to-day responsibilities of a system administrator: managing users and permissions, securing remote access, configuring a firewall, controlling system services, monitoring resources, and documenting a reliable server environment.
+The project provides hands-on experience with the day-to-day responsibilities of a system administrator: managing users and permissions, securing remote access, configuring a firewall, controlling services, and monitoring system resources.
 
 Rather than focusing on application development, Born2beroot emphasizes the secure and disciplined management of the operating system beneath modern software systems.
 
-## 🎯 Objectives
+## Objectives
 
 - Deploy a functional Linux server inside a virtual machine.
 - Apply strict security and access-control policies.
 - Manage users, groups, passwords, and administrative privileges.
 - Configure secure remote administration using SSH.
-- Install and configure a firewall with a minimal network exposure.
+- Install and configure a firewall with minimal network exposure.
 - Manage system services and ensure that only required services are enabled.
 - Monitor system performance and resource usage.
 - Automate recurring checks with shell scripting.
 - Document configuration choices so the environment remains reproducible and maintainable.
 
-## 🛡️ Main Areas Covered
+## Main Areas Covered
 
 ### Operating System Administration
 
@@ -54,7 +54,7 @@ Rather than focusing on application development, Born2beroot emphasizes the secu
 - Shell scripting for automated status checks
 - Scheduled execution with `cron` or `crontab`
 
-## 🧰 Technologies and Tools
+## Technologies and Tools
 
 - **Operating system:** Debian or another distribution required by the project subject
 - **Virtualization:** VirtualBox
@@ -65,7 +65,7 @@ Rather than focusing on application development, Born2beroot emphasizes the secu
 - **Automation:** cron / crontab
 - **Version control:** Git
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 1. Create a new virtual machine in VirtualBox.
 2. Install the selected Linux distribution using the project requirements.
@@ -77,7 +77,7 @@ Rather than focusing on application development, Born2beroot emphasizes the secu
 
 > The exact commands and configuration values should be adapted to the official Born2beroot subject and the chosen operating system.
 
-## 📂 Repository Contents
+## Repository Contents
 
 This repository contains the documentation and configuration references used to build, secure, and validate the Born2beroot virtual machine. Typical materials include:
 
@@ -87,7 +87,7 @@ This repository contains the documentation and configuration references used to 
 - Validation checklists for project evaluation
 - Explanations of security decisions and administrative commands
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 By completing this project, I developed practical knowledge of:
 
@@ -100,11 +100,11 @@ By completing this project, I developed practical knowledge of:
 - Security hardening and least-privilege principles
 - Technical documentation and reproducible configuration
 
-## ✅ Project Status
+## Project Status
 
 **Completed and validated as part of the 42 curriculum.**
 
-## 👤 Author
+## Author
 
 **A-chem**  
 42 School student
