@@ -1,58 +1,110 @@
-# 🔒 Born2beroot (42 Project)
-<img width="512" height="512" alt="unnamed" src="https://github.com/user-attachments/assets/03a21632-41ec-460d-a680-fac252409b3b" />
+# 🔒 Born2beroot
 
-**Born2beroot** is a project from the [42](https://42.fr) curriculum focused on **Linux system administration and security**.  
-Its main goal is to practice creating a **secure virtual machine** and managing users, services, and permissions from scratch.  
+> **A 42 School system-administration project focused on virtualization, Linux security, and server hardening.**
 
----
+## 📌 Project Overview
 
-## 🚀 Project Overview
-The project challenges students to configure a **Linux virtual machine** in a secure and stable way. This includes:  
-- Setting up **users and groups** with proper permissions  
-- Managing **sudo privileges**  
-- Configuring **network and firewall** rules  
-- Handling **services** (enabling, disabling, securing)  
-- Monitoring the system for **security vulnerabilities**  
+**Born2beroot** is a practical infrastructure project from the [42 School](https://42.fr) curriculum. Its objective is to design, install, configure, and secure a Linux virtual machine while applying fundamental system-administration and cybersecurity principles.
 
-The goal is to gain real-world experience in **system administration** and **Linux security** while working in a controlled environment.  
+The project provides hands-on experience with the day-to-day responsibilities of a system administrator: managing users and permissions, securing remote access, configuring a firewall, controlling system services, monitoring resources, and documenting a reliable server environment.
 
----
+Rather than focusing on application development, Born2beroot emphasizes the secure and disciplined management of the operating system beneath modern software systems.
 
-## 🛠️ Key Skills Learned
-- Linux commands and shell scripting  
-- User and group management (`adduser`, `usermod`, `passwd`)  
-- File and directory permissions (`chmod`, `chown`, `umask`)  
-- Network configuration and firewall rules (`iptables`, `ufw`)  
-- Service management (`systemctl`, `service`)  
-- Basic security hardening and best practices  
+## 🎯 Objectives
 
----
+- Deploy a functional Linux server inside a virtual machine.
+- Apply strict security and access-control policies.
+- Manage users, groups, passwords, and administrative privileges.
+- Configure secure remote administration using SSH.
+- Install and configure a firewall with a minimal network exposure.
+- Manage system services and ensure that only required services are enabled.
+- Monitor system performance and resource usage.
+- Automate recurring checks with shell scripting.
+- Document configuration choices so the environment remains reproducible and maintainable.
 
-## ⚙️ Installation / Setup
-1. Create a Linux virtual machine (recommended: Debian or Ubuntu).  
-2. Apply the tasks step by step as described in the project subject.  
-3. Use `ssh` for remote access and testing.  
-4. Keep track of your configuration in scripts for reproducibility.  
+## 🛡️ Main Areas Covered
 
----
+### Operating System Administration
 
-## 📂 Project Structure (Example)
-- **`users.sh`** → scripts to create users and groups  
-- **`permissions.sh`** → scripts to set file and directory permissions  
-- **`services.sh`** → scripts to manage services  
-- **`network.sh`** → scripts for firewall and network configuration  
-- **`README.md`** → project documentation  
+- Linux installation and partitioning
+- Package management and system updates
+- Hostname and network configuration
+- Service supervision with `systemd`
+- Secure handling of system files and directories
 
----
+### Identity and Access Management
 
-## 🎯 Learning Outcomes
-By completing **Born2beroot**, you will:  
-- Understand **Linux system architecture** and administration fundamentals.  
-- Gain experience managing **users, groups, and permissions** securely.  
-- Learn to configure **network services** and implement firewall rules.  
-- Build practical knowledge for **real-world system administration** and cybersecurity.  
+- User and group creation
+- Password-policy enforcement
+- Sudo configuration and privilege limitation
+- File ownership and permission management
+- Access control based on the principle of least privilege
 
----
+### Network Security
 
-## ✅ Status
-✔️ Project completed and validated at 42  
+- SSH configuration for secure remote administration
+- Firewall configuration using `UFW` or `iptables`
+- Restriction of exposed ports and network services
+- Validation of listening services and active connections
+
+### Monitoring and Automation
+
+- System resource monitoring
+- Reporting of CPU, memory, disk, and processor information
+- Shell scripting for automated status checks
+- Scheduled execution with `cron` or `crontab`
+
+## 🧰 Technologies and Tools
+
+- **Operating system:** Debian or another distribution required by the project subject
+- **Virtualization:** VirtualBox
+- **Shell:** Bash
+- **Remote administration:** OpenSSH
+- **Firewall:** UFW / iptables
+- **Service management:** systemd / systemctl
+- **Automation:** cron / crontab
+- **Version control:** Git
+
+## 🚀 Installation and Setup
+
+1. Create a new virtual machine in VirtualBox.
+2. Install the selected Linux distribution using the project requirements.
+3. Configure disk partitions, users, groups, and authentication policies.
+4. Install and configure SSH, the firewall, and the required system services.
+5. Apply the security-hardening rules defined by the project subject.
+6. Configure the monitoring script and schedule its execution.
+7. Verify the server configuration, permissions, services, and network exposure.
+
+> The exact commands and configuration values should be adapted to the official Born2beroot subject and the chosen operating system.
+
+## 📂 Repository Contents
+
+This repository contains the documentation and configuration references used to build, secure, and validate the Born2beroot virtual machine. Typical materials include:
+
+- Configuration notes and installation procedures
+- Bash scripts for system monitoring and administration
+- SSH, firewall, sudo, and password-policy references
+- Validation checklists for project evaluation
+- Explanations of security decisions and administrative commands
+
+## 📚 Learning Outcomes
+
+By completing this project, I developed practical knowledge of:
+
+- Linux system architecture and server administration
+- Virtual machine deployment and maintenance
+- User, group, and permission management
+- Secure remote access and firewall configuration
+- Service management and system monitoring
+- Shell scripting and task automation
+- Security hardening and least-privilege principles
+- Technical documentation and reproducible configuration
+
+## ✅ Project Status
+
+**Completed and validated as part of the 42 curriculum.**
+
+## 👤 Author
+
+**A-chem**  
+42 School student
