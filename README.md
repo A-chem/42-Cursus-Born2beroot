@@ -1,6 +1,6 @@
 # Born2beroot
 
-> **A 42 School system-administration project focused on virtualization, Linux security, and server hardening.**
+A 42 School system-administration project focused on virtualization, Linux security, and server hardening.
 
 ## Project Overview
 
